@@ -5,7 +5,7 @@ import numpy as np
 from pprint import pprint
 import math
 
-xy = [0.343211370103531, 0.360207541805137] # Standard observer 2 degree CIE 1931
+xy = [0.31270, 0.32900] # Standard observer 2 degree CIE 1931
 XYZ = colour.xy_to_XYZ(xy)
 CAT = "Bradford"
 illuminant = colour.RGB_COLOURSPACES["sRGB"].whitepoint # Illuminant of the input CIE XYZ tristimulus values
